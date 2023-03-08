@@ -8,16 +8,59 @@
     display: flex;
     gap: 24px;
     padding-right: 50px;
+    padding-right: 250px;
 }
 
 .header-links a {
     text-decoration: none;
     font-size: 18px;
-    color: #E5E7EB
+    color: #E5E7EB;
 }
 
 .header-logo {
     padding-left: 250px;
     font-size: 24px; 
     color: #F9FAF8;
+}
+
+.hero {
+    display: flex;
+    background-color: #1F2937;
+    justify-content: space-between;
+}
+
+.hero-text {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 500px;
+    flex: none;
+    padding-left: 240px;
+}
+
+.hero-main-text {
+    font-size: 48px;
+    font-weight: bolder;
+    color: #F9FAF8;
+    margin: 5px;
+}
+
+.hero-subtext {
+    font-size: 18px;
+    color: #E5E7EB;
+    margin: 5px;
+}
+
+.hero-button {
+    background-color: #3882F6;
+    color: #F9FAF8;
+    font-size: 32px;
+    margin: 5px;
+    width: fit-content;
+    padding: 10px 40px;
+    border-radius: 15px;
+}
+
+img {
+    padding-right: 250px;
 }
