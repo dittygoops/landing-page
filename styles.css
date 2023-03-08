@@ -64,3 +64,38 @@
 img {
     padding-right: 250px;
 }
+
+.info {
+    display: flex;
+    gap:10px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.info-images {
+    width: 200px;
+    height: 200px;
+}
+
+.info1,
+.info2,
+.info3,
+.info4 {
+    width: 200px;
+    height:200px
+    display: flex;
+    flex-direction: column;
+}
+
+.info-text1,
+.info-text2,
+.info-text3,
+.info-text4 {
+    text-align: center;
+}
+
+.info-squares {
+    display: flex;
+    gap: 25px;
+}
