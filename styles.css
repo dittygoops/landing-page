@@ -174,3 +174,16 @@
     font-weight: bold;
     border: solid;
 }
+
+.footer {
+    display: flex;
+    justify-content: center;
+    background-color: #1F2937;
+    color: #F9FAF8;
+    padding: 20px;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+}
