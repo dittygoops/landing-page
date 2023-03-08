@@ -132,3 +132,45 @@
     padding-left: 300px;
     font-weight: 1000;
 }
+
+.call-to-action-section {
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 100px;
+}
+
+.call-to-action-container {
+    display: flex;
+    background-color: #3882F6;
+    justify-content: space-around;
+    padding: 50px 100px;
+    width: 1200px;
+    border-radius: 25px;
+}
+
+.call-to-action-text {
+    display: flex;
+    flex-direction: column;
+    color: #F9FAF8;
+    font-size: 32px;
+    width: 800px;
+}
+
+.call-to-action-text-header {
+    font-weight: bold;
+    margin-bottom: -25px;
+}
+
+.call-to-action-button {
+    height: fit-content;
+    align-self: center;
+    padding: 10px 40px;
+    border-radius: 15px;
+    border-color: #F9FAF8;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    font-weight: bold;
+    border: solid;
+}
